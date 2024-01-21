@@ -2,6 +2,7 @@
 
 * Bu proje, ders, öğrenci ve öğretim görevlisi kayıt projesidir.
 * Projede 4 form, 3 sınıf (form sınıfları ile birlikte 7 sınıf) bulunmaktadır.
+* Projede veriler JTable nesnesinde listelenmektedir.
 
 ## Nasıl Çalışır
 
@@ -12,6 +13,9 @@
 5. Ders eklemek için tüm alanlar doldurulur. Tüm alanlar doldurulmaz ise işlem gerçekleştirilmez.
 6. Öğrenci eklemek için tüm alanlar doldurulur. Tüm alanlar doldurulmaz ise işlem gerçekleştirilmez.
 7. Öğretim görevlisi eklemek için tüm alanlar doldurulur. Tüm alanlar doldurulmaz ise işlem gerçekleştirilmez.
+* Not: Öğrenci Kayıt sayfasında öğrenci bölümü girilir ve Enter tuşuna basılır. Bölüme göre dersler combobox nesnesinde listelenir.
+* Not: Öğretmen Kayıt sayfasında dersler belgeden okunur ve combobox nesnesinde listelenir.
+* Not: Ders Kayıt sayfasında öğretmenler belgeden okunur ve combobox nesnesinde listelenir.
 
 ## Formlar
 
