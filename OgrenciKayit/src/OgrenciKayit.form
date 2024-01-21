@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="OgrenciKayit">
+  <grid id="27dc6" binding="JPanel" layout-manager="GridLayoutManager" row-count="16" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="448" height="544"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <vspacer id="56595">
+        <constraints>
+          <grid row="1" column="0" row-span="14" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="7f395" class="javax.swing.JLabel" binding="baslik">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Öğrenci Kayıt Sayfası"/>
+        </properties>
+      </component>
+      <component id="e02e5" class="javax.swing.JLabel" binding="lbl_Tc">
+        <constraints>
+          <grid row="2" column="1" row-span="3" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Öğrenci TC"/>
+        </properties>
+      </component>
+      <component id="d148c" class="javax.swing.JButton" binding="btn_Anasayfa">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="1" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Anasayfa"/>
+          <toolTipText value="Anasayfaya Dönmek İçin Tıklayınız"/>
+        </properties>
+      </component>
+      <component id="b6514" class="javax.swing.JLabel" binding="lbl_Ad">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Ad"/>
+        </properties>
+      </component>
+      <component id="f4ae1" class="javax.swing.JTextField" binding="txt_Ad">
+        <constraints>
+          <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="9" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <toolTipText value="Öğrenci Adını Giriniz"/>
+        </properties>
+      </component>
+      <component id="9eba4" class="javax.swing.JLabel" binding="lbl_Soyad">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Soyad"/>
+        </properties>
+      </component>
+      <component id="85578" class="javax.swing.JTextField" binding="txt_Soyad">
+        <constraints>
+          <grid row="7" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="9" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <toolTipText value="Öğrencinin Soyadını Giriniz"/>
+        </properties>
+      </component>
+      <component id="e50a4" class="javax.swing.JLabel" binding="lbl_Sınıf">
+        <constraints>
+          <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Sınıf"/>
+        </properties>
+      </component>
+      <component id="33bb8" class="javax.swing.JComboBox" binding="cmb_Sinif">
+        <constraints>
+          <grid row="8" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="9" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <model>
+            <item value="1"/>
+            <item value="2"/>
+            <item value="3"/>
+            <item value="4"/>
+            <item value="Mezun"/>
+          </model>
+          <toolTipText value="Öğrencinin Sınıf Seçiniz"/>
+        </properties>
+      </component>
+      <component id="27845" class="javax.swing.JButton" binding="btn_DersKayit">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="1" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Ders Kayıt Sayfası"/>
+          <toolTipText value="Ders Kayıt Sayfasına Gitmek İçin Tıklayınız"/>
+        </properties>
+      </component>
+      <component id="f8923" class="javax.swing.JLabel" binding="lbl_DTarih">
+        <constraints>
+          <grid row="9" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Doğum Tarihi"/>
+        </properties>
+      </component>
+      <component id="d9745" class="javax.swing.JFormattedTextField" binding="frmtted_DTarih">
+        <constraints>
+          <grid row="9" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="9" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <focusAccelerator value="1"/>
+          <toolTipText value="Gün/Ay/Yıl"/>
+        </properties>
+      </component>
+      <component id="4ac36" class="javax.swing.JLabel" binding="lbl_telNo">
+        <constraints>
+          <grid row="10" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Telefon Numarası"/>
+        </properties>
+      </component>
+      <component id="1a9d3" class="javax.swing.JFormattedTextField" binding="frmtted_TelNo">
+        <constraints>
+          <grid row="10" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="9" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <focusCycleRoot value="true"/>
+          <text value=""/>
+          <toolTipText value="(53_)___ __ __"/>
+          <verifyInputWhenFocusTarget value="true"/>
+        </properties>
+      </component>
+      <component id="b3969" class="javax.swing.JLabel" binding="lbl_Bolum">
+        <constraints>
+          <grid row="11" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Bölüm"/>
+        </properties>
+      </component>
+      <component id="b913f" class="javax.swing.JLabel" binding="lbl_Ders">
+        <constraints>
+          <grid row="12" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Ders"/>
+        </properties>
+      </component>
+      <component id="7afe5" class="javax.swing.JTextField" binding="txt_Bolum">
+        <constraints>
+          <grid row="11" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="9" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <toolTipText value="Öğrencinin Bölümünü Giriniz"/>
+        </properties>
+      </component>
+      <component id="9cfd2" class="javax.swing.JComboBox" binding="cmb_Ders">
+        <constraints>
+          <grid row="12" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="9" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <model/>
+          <toolTipText value="Ders Seçiniz"/>
+        </properties>
+      </component>
+      <component id="3fe2e" class="javax.swing.JButton" binding="btn_Kaydet">
+        <constraints>
+          <grid row="13" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="9" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Kaydet"/>
+          <toolTipText value="Bilgileri Kaydetmek İçin Tıklayınız"/>
+        </properties>
+      </component>
+      <component id="78a80" class="javax.swing.JPasswordField" binding="psw_TC">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="9" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <toolTipText value="Öğrenci TC'si Giriniz"/>
+        </properties>
+      </component>
+      <component id="280f8" class="javax.swing.JLabel" binding="lbl_ogrNo">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Öğrenci No"/>
+        </properties>
+      </component>
+      <component id="44778" class="javax.swing.JTextField" binding="txt_OgrNo">
+        <constraints>
+          <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <toolTipText value="Öğrenci No'su Giriniz"/>
+        </properties>
+      </component>
+      <component id="fefe7" class="javax.swing.JTextField" binding="txt_Ara">
+        <constraints>
+          <grid row="14" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="4b0cf" class="javax.swing.JLabel" binding="lblAra">
+        <constraints>
+          <grid row="14" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Numaraya Göre Arama Yapın:"/>
+        </properties>
+      </component>
+      <component id="cea70" class="javax.swing.JTable" binding="ogrenciTablo">
+        <constraints>
+          <grid row="15" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+    </children>
+  </grid>
+</form>
